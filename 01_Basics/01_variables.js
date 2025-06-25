@@ -1,12 +1,12 @@
 const accountId = 144553
 let accountEmail = "ishpriya@gmail.com"
-var accountPassword = "1234"
+var accountPassword = "185xxx"
 accountCity = "Patna"
 
 //accountId = 2 // not allowed
 // Updating value
 accountEmail = "hc@hc.com"
-accountPassword = "8234865"
+accountPassword = "82xxxx"
 accountCity = "jaipur"
 
 console.log(accountId);
