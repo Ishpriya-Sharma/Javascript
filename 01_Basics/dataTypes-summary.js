@@ -1,4 +1,7 @@
+/*
 // Primitive
+
+const { useImperativeHandle } = require("react");
 
 // 7 types : String, Number, Boolean, null, underfined, symbol, BigInt
 
@@ -35,3 +38,27 @@ console.log(typeof bigNumber);
 console.log(typeof outsdeTemp);
 console.log(typeof scoreValue);
 console.log(typeof myFunction);
+*/
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myname = "Ishpriya";
+let anothername = myname;
+anothername = "Pihu";
+
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+};
+
+let userTwo = userOne;
+
+userTwo.email = "hdsi@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
